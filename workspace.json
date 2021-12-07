@@ -1,6 +1,11 @@
 {
   "version": 2,
   "projects": {
-    "api-1": "apps/api-1"
+    "api-1": "apps/api-1",
+    "dto": "libs/dto",
+    "entities": "libs/entities",
+    "guards": "libs/guards",
+    "interfaces": "libs/interfaces",
+    "strategies": "libs/strategies"
   }
 }

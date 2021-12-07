@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-boiler-plate/dto": ["libs/dto/src/index.ts"],
+      "@nx-boiler-plate/entities": ["libs/entities/src/index.ts"],
+      "@nx-boiler-plate/guards": ["libs/guards/src/index.ts"],
+      "@nx-boiler-plate/interfaces": ["libs/interfaces/src/index.ts"],
+      "@nx-boiler-plate/strategies": ["libs/strategies/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
